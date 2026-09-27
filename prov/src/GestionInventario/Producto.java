@@ -45,6 +45,7 @@ public class Producto {
     }
 
 
+    //des
     public void aplicarDescuento(double porcentaje) {
     if (porcentaje <= 0 || porcentaje > 100) {
         System.out.println("Error: el porcentaje de descuento debe estar entre 0 y 100.");

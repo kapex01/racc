@@ -16,7 +16,7 @@ public class MainInventario {
         Producto copiaUno = productoUno;
         copiaUno.stock = 29;
         System.out.println("Stock de productoUno tras modificar copia: " + productoUno.stock );
-
+        //des
         productoUno.aplicarDescuento(10.0);
 
         System.out.println();
@@ -31,7 +31,7 @@ public class MainInventario {
         Producto copiaDos = productoDos;
         copiaDos.stock = 15; 
         System.out.println("Stock de productoDos tras modificar copiaDos: " + productoDos.stock ); 
-
+        //des
         productoDos.aplicarDescuento(15.0);
 
         System.out.println();
@@ -45,12 +45,13 @@ public class MainInventario {
         Producto copiaTres = productoTres;
         copiaTres.stock = 30; 
         System.out.println("Stock de productoTres tras modificar copiaTres: " + productoTres.stock ); 
-
+        //des
         productoTres.aplicarDescuento(30.0);
 
         System.out.println();
         System.out.println();   
 
+        //des
         Producto[] productos = new Producto[3];
         productos[0] = productoUno;
         productos[1] = productoDos;
